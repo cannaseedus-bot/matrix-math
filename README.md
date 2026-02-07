@@ -125,6 +125,15 @@ python -m trainer_merge_ultra \
 ## Repository layout
 ```
 .
+├── micronaut
+│   ├── brains
+│   ├── io
+│   ├── micronaut.ps1
+│   ├── micronaut.s7
+│   ├── object.toml
+│   ├── proof
+│   ├── semantics.xjson
+│   └── trace
 ├── checkpoint_system.py
 ├── device_utils.py
 ├── grams_utils.py
@@ -135,6 +144,11 @@ python -m trainer_merge_ultra \
 ├── trainer_qwen_ultra.py
 └── xcfe_engine.py
 ```
+
+## Micronaut object layout
+The `micronaut/` directory contains a file-centric SCO/1 object with sealed
+brains, append-only IO files, and a PowerShell orchestrator that routes
+REST/file interactions without host-side inference logic.
 
 ## Notes
 - The trainers use minimal error handling and assume local filesystem data.

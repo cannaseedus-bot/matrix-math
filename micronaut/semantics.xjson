@@ -1,0 +1,8 @@
+{
+  "schema": "KUHUL-TSG",
+  "version": "scxq7",
+  "sealed": true,
+  "notes": "Canonical schema placeholder for Micronaut object semantics.",
+  "nodes": [],
+  "edges": []
+}

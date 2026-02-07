@@ -1,0 +1,22 @@
+name = "micronaut"
+version = "sco/1"
+format = "object"
+mode = "file-centric"
+entry = "micronaut.s7"
+
+[io]
+chat = "io/chat.txt"
+stream = "io/stream.txt"
+snapshot_dir = "io/snapshot"
+
+[trace]
+trace = "trace/scxq2.trace"
+proof = "proof/scxq2.proof"
+
+[lifecycle]
+states = ["INIT", "READY", "RUNNING", "IDLE", "HALT"]
+
+[brains]
+trigrams = "brains/trigrams.json"
+bigrams = "brains/bigrams.json"
+meta_intent_map = "brains/meta-intent-map.json"
